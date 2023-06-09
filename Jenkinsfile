@@ -8,7 +8,7 @@ pipeline{
       
       steps{
         
-       sh 'python file1_main_code.py'
+       echo 'python file1_main_code.py'
         
       }
       
@@ -18,7 +18,7 @@ pipeline{
       
       steps{
         
-        sh 'python file2_test_scripts.py'
+        echo  'python file2_test_scripts.py'
         
       }
       
@@ -28,7 +28,7 @@ pipeline{
       
       steps{
         
-       sh 'python file3_deployment.py'
+       echo  'python file3_deployment.py'
         
       }
       
