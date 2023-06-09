@@ -18,7 +18,7 @@ pipeline{
       
       steps{
         
-        echo "this is test stage"
+        sh 'python file2_test_scripts.py'
         
       }
       
@@ -28,7 +28,7 @@ pipeline{
       
       steps{
         
-        echo "this is deploy stage"
+       sh 'python file3_deployment.py'
         
       }
       
