@@ -8,7 +8,7 @@ pipeline{
       
       steps{
         
-        echo "this is build stage"
+       sh 'python file1_main_code.py'
         
       }
       
